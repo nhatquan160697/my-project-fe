@@ -1,4 +1,5 @@
 <template>
+	<div>
     <section class="resume-section" id="awards">
         <div class="resume-section-content">
             <h2 class="mb-5">Awards & Certifications</h2>
@@ -28,11 +29,12 @@
         </div>
     </section>
     <hr class="m-0" />
+	</div>
 </template>
 
 <script>
 export default {
-    
+	name: 'Awards'
 }
 </script>
 
