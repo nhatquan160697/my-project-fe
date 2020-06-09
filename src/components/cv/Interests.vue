@@ -1,4 +1,5 @@
 <template>
+	<div>
     <section class="resume-section" id="interests">
         <div class="resume-section-content">
             <h2 class="mb-5">Interests</h2>
@@ -7,11 +8,12 @@
         </div>
     </section>
     <hr class="m-0" />
+	</div>
 </template>
 
 <script>
 export default {
-    
+	name: 'Interests'
 }
 </script>
 
