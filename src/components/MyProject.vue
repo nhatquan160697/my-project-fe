@@ -1,5 +1,11 @@
 <template>
   <div class="main-wrapper">
+    <div>
+      <button v-for="entry in languages" :key="entry.title" @click="changeLocale(entry.language)">
+        <flag :iso="entry.flag" v-bind:squared="false" />
+        {{entry.title}}
+      </button>
+    </div>
     <Menu />
     <div class="container-fluid p-0">
       <About />
@@ -20,11 +26,16 @@ import Education from '@/components/cv/Education.vue'
 import Skills from '@/components/cv/Skills.vue'
 import Interests from '@/components/cv/Interests.vue'
 import Awards from '@/components/cv/Awards.vue'
+import i18n from '@/plugins/cv/i18n'
 
 export default {
 	data () {
 		return {
-			title: 'QuanTTN - CV'
+			title: 'TTNQ BLOG',
+      languages: [
+        { flag: 'us', language: 'en', title: 'English' },
+        { flag: 'vi', language: 'vi', title: 'Vietnamese' }
+      ]
 		}
 	},
 	components: {
@@ -35,7 +46,12 @@ export default {
 		Skills,
 		Interests,
 		Awards
-	}
+	},
+  methods: {
+    changeLocale (locale) {
+      i18n.locale = locale
+    }
+  }
 }
 </script>
 
