@@ -2,9 +2,9 @@
     <div>
         <section class="resume-section" id="about">
             <div class="resume-section-content">
-                <h1 class="mb-0">{{ $t('lastName') }} <span class="text-primary">{{ $t('firstName') }}</span></h1>
-                <div class="subheading mb-5">3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 ·
-                    <a href="mailto:name@email.com">name@email.com</a>
+                <h1 class="mb-0">{{ $t('personalInfor.lastName') }}<span class="text-primary">{{ $t('personalInfor.firstName') }}</span></h1>
+                <div class="subheading mb-5">{{ $t('personalInfor.address') }}·
+                    <a href="mailto:name@email.com">{{ $t('personalInfor.email') }}</a>
                 </div>
                 <p class="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
                 <div class="social-icons">

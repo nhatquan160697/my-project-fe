@@ -11,6 +11,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "@growthbunker/vueflags": "^0.1.1",
     "bootstrap": "^4.5.0",
     "devicons": "^1.8.0",
     "font-awesome": "^4.7.0",
@@ -20,7 +21,8 @@
     "vue": "^2.5.2",
     "vue-flag-icon": "^1.0.6",
     "vue-i18n": "^8.18.2",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "vue-select": "^3.10.3"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",

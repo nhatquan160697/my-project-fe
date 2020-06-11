@@ -5,12 +5,20 @@ Vue.use(VueI18n)
 
 const messages = {
     'en': {
-        firstName: 'TON THAT NHAT',
-        lastName: 'QUAN'
+        personalInfor: {
+            firstName: 'TON THAT NHAT',
+            lastName: 'QUAN',
+            address: 'K52/73 Dinh Tien Hoang, Hai Chau, Da Nang',
+            email: 'nhatquan160697@gmail.com'
+        }
     },
     'vi': {
-        firstName: 'QUÂN',
-        lastName: 'TÔN THẤT NHẬT'
+        personalInfor: {
+            firstName: 'QUÂN',
+            lastName: 'TÔN THẤT NHẬT',
+            address: 'K52/73 Đinh Tiên Hoàng, Hải Châu, Đà Nẵng',
+            email: 'nhatquan160697@gmail.com'
+        }
     }
 }
 
