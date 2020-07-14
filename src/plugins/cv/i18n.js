@@ -23,6 +23,14 @@ const messages = {
                 company: ['Sun-Asterisk', 'Freelancer', 'Gmon Solution and Technology Joint Stock'],
                 detail: ['Detail 1', 'Detail 2', 'Detail 3']
             }
+        },
+        education: {
+            title: 'Education',
+            schools: ['Duy Tan University', 'Gia Hoi High School'],
+            discriptions: ['Studied at Duy Tan University, Da Nang', 'Studied at Gia Hoi High School, Thua Thien Hue'],
+            ranks: ['GPA: 3.35', ''],
+            majors: ['Software Engineering', 'Student'],
+            rangeTimes: ['2015-2019', '2012-2015']
         }
     },
     'vi': {
@@ -43,6 +51,14 @@ const messages = {
                 company: ['Sun-Asterisk', '', 'Gmon Solution and Technology Joint Stock'],
                 detail: ['Detail 1', 'Detail 2', 'Detail 3']
             }
+        },
+        education: {
+            title: 'Quá trình học tập',
+            schools: ['Đại học Duy Tân', 'THPT Gia Hội'],
+            discriptions: ['Đã học tại ĐH Duy Tân, Đà Nẵng', 'Đã học tại THPT Gia hội, Thừa Thiên Huế'],
+            ranks: ['GPA: 3.35', ''],
+            majors: ['Công nghệ phần mềm', 'Học sinh'],
+            rangeTimes: ['2015-2019', '2012-2015']
         }
     }
 }
